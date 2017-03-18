@@ -1,0 +1,266 @@
+$bgsize:100% 100%;
+$cover:cover;
+$position:absolute;
+html,p,h2{
+	margin:0;
+	padding:0;
+}
+
+/*前四页背景*/
+.swiper-slide-f{
+	background:url(../images/bg01.JPG) no-repeat $bgsize;
+	background-size: $cover;
+}
+.swiper-slide-s{
+	background:url(../images/bg02.JPG) no-repeat $bgsize;
+	background-size: $cover;
+}
+
+.swiper-slide-th{
+	background:url(../images/bg04.JPG) no-repeat $bgsize;
+	background-size: $cover;
+}
+
+.swiper-slide-t{
+	background:url(../images/bg03.JPG) no-repeat $bgsize;
+	background-size: $cover;
+}
+
+/*第一页*/
+.ani-resume{
+	width:12%;
+	position:$position !important;
+    top: 8%;
+    left: 45%;
+    font-family:"造字工房云宋" !important;
+}
+
+.ani-bottom{
+	position:$position;
+	bottom:8%;
+	left:35%;
+	font-size:22px !important;
+	line-height:40px;
+}
+
+.sun{
+	width:16%;
+	position:$position;
+	bottom:52%;
+	left:43%;
+}
+
+
+/*第二页*/
+.sun-down{
+	width:16%;
+	position:$position;
+	bottom:41%;
+	left:43%;
+}
+
+.infor{
+	position:$position;
+	top:5%;
+	left:10%;
+	font-size:16px !important;
+}
+.infor-content{
+	position:$position;
+	top:10%;
+	left:13%;
+
+}
+
+
+.infor-content{
+	p{
+	   font-size:12px !important;
+	   text-align:left !important;
+	   line-height:16px;	   
+	}
+}
+
+
+.reward{
+	position:$position;
+	top:25%;
+	left:10%;
+	font-size:16px !important;
+}
+.reward-content{
+	position:$position;
+	top:30%;
+	left:13%;
+
+}
+
+
+.reward-content{
+	p{
+	   font-size:12px !important;
+	   text-align:left !important;
+	   line-height:16px;	   
+	}
+}
+
+
+//第三页
+.ani-skill{
+	width:11%;
+	position:$position !important;
+    bottom: 55%;
+    left: 8%;
+    font-family:"造字工房云宋" !important;
+}
+
+.ul-skill-f{
+    position:$position !important;
+    top:18%;
+    left:10%;
+    list-style:none;
+	  li{
+	    img{
+	    width:22%;
+	}
+	}
+}
+
+.ul-skill-s{
+    position:$position !important;
+    top:13%;
+    left:30%;
+    list-style:none;
+	  li{
+	    img{
+	    width:22%;
+	}
+	}
+}
+
+.ul-skill-t{
+    position:$position !important;
+    top:8%;
+    left:50%;
+    list-style:none;
+	  li{
+	    img{
+	    width:22%;
+	}
+	}
+}
+
+
+
+//第四页
+.moon{
+	width:15%;
+	position:$position;
+	bottom:46%;
+	left:50%;
+}
+
+.experience{
+	width:12%;
+	position:$position !important;
+    top: 18%;
+    right: 10%;
+    font-family:"造字工房云宋" !important;
+}
+
+
+@-webkit-keyframes showOff {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes showOff {
+  0% {
+    filter:alpha(opacity = 0);
+    opacity: 0;
+  }
+
+  100% {
+    filter:alpha(opacity = 100);
+    opacity: 1;
+  }
+}
+
+.showOff {
+  -webkit-animation-name: showOff;
+  animation-name: showOff;
+}
+
+
+.star01,.star02,.star03{
+	position:$position;
+	width:3%;
+}
+
+.star01{
+	right:12%;
+	top:45%;
+}
+
+.star02{
+	right:17%;
+	top:48%;
+}
+
+.star03{
+	right:22%;
+	top:46%;
+}
+
+#enter{
+    position:$position;
+    bottom:5%;
+    left:42%;
+	width:72px;
+	height:30px;
+	background:#ffffff;
+	font-size:12px;
+	border:none;
+	border-radius:0;
+}
+
+.project{
+	width:11%;
+	position:$position !important;
+    top: 28%;
+    left: 6%;
+    font-family:"造字工房云宋" !important;
+}
+
+.project-f{
+	width:45%;
+	position:$position !important;
+    top: 8%;
+    left:16%;
+}
+
+.project-s{
+	width:45%;
+	position:$position !important;
+    top: 15%;
+    left: 24%;
+}
+
+.project-t{
+	width:45%;
+	position:$position !important;
+    top: 22%;
+    left: 32%;
+}
+
+.project-fo{
+	width:45%;
+	position:$position !important;
+    top: 29%;
+    left: 40%;
+}
